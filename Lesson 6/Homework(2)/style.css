@@ -1,0 +1,63 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.raleway {
+  font-family: "Raleway", sans-serif;
+}
+
+.f-s_36 {
+  font-size: 36px;
+}
+
+.f-s_20 {
+  font-size: 20px;
+}
+
+.customers {
+  text-align: center;
+  padding-top: 73px;
+  padding-bottom: 88px;
+}
+
+.line {
+  width: 64px;
+  height: 2px;
+  margin: 22px auto;
+  background-color: rgb(255, 139, 56);
+}
+
+.color-gray {
+  color: rgb(134, 135, 139, 1);
+}
+
+.reviews {
+  width: 80%;
+  max-width: 1400px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+}
+
+.first_review {
+  width: 20%;
+}
+
+.avatar {
+  background-image: url(./images/avatar.png);
+  width: 70px;
+  height: 70px;
+}
+
+.review-size {
+  /* width: 21%; */
+  background-color: rgb(245, 245, 245);
+  height: 127px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: left;
+  padding: 3px;
+  margin-bottom: 28px;
+}
